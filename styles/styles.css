@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    background-color: #1F2937;
+    color: #FFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+
+    & nav {
+        display: flex;
+        gap: 2rem;
+    }
+
+    & a {
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+}
+
+.content {
+    max-width: 50rem;
+}
+
+.placeholder {
+    background-color: #a2a2a2;
+    padding: 5rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
