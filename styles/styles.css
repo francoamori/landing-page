@@ -18,11 +18,12 @@ body {
 }
 
 .btn {
-    color: #FFF;
+    color: #E5E7EB;
     background-color: #3282f6;
     padding: 1rem 3rem;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 
 /* header */
@@ -30,7 +31,7 @@ body {
 header,
 footer {
     background-color: #1F2937;
-    color: #FFF;
+    color: #E5E7EB;
 }
 
 .header {
@@ -59,7 +60,6 @@ footer {
 .title {
     font-size: 48px;
     font-weight: 900;
-    color: #F9FAF8;
 }
 
 .secondary-text {
@@ -81,9 +81,15 @@ footer {
 
 /* Items */
 
-.items {
+.information {
     text-align: center;
     padding: 5rem 0 10rem;
+}
+
+.header-info {
+    font-size: 3.6rem;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .flex-container {
@@ -117,6 +123,24 @@ footer {
 .user {
     text-align: right;
     font-weight: bold;
+}
+
+/* sign up */
+
+.sign-up {
+    max-width: 100rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+    color: #E5E7EB;
+    background-color: #3282f6;
+    margin: 10rem auto;
+    border-radius: 1rem;
+    align-items: center;
+
+    & .btn {
+        border: 1px solid #E5E7EB;
+    }
 }
 
 /* Footer */
