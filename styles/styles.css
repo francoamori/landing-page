@@ -140,6 +140,12 @@ footer {
 
     & .btn {
         border: 1px solid #E5E7EB;
+        transition: background-color .3s ease-out;
+
+        &:hover {
+            background-color: #E5E7EB;
+            color: #3282f6;
+        }
     }
 }
 
